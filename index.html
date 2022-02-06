@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title> Cadastro | Hg </title>
+    <link rel="icon" type="imagem/png" href="/imagens/icone_preto.png" />
+    <link rel='stylesheet' type='text/css' href='/css/index.css'>
+    <style>
+        @import url ('https://fonts.googleapis.com/css2? family = Quicksand: wght @ 300; 400; 500; 600; 700 & display = swap');
+
+        @font-face {
+            src: url(/fontes/Panton-BlackCaps.otf);
+            font-family: 'Panton-BlackCaps';
+            font-weight: normal;
+        }
+
+        body{
+            font-family: 'Quicksand', sans-serif;
+        }
+        
+        h1 {
+            font-family: 'Quicksand', sans-serif;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <div class="fundo">
+        <div class = 'cadastro'>
+            <div class="titulo">
+                <label id = 'titulo'><strong>PREENCHA AS COM OS SEUS DADOS</strong><label>
+                    
+            </div>
+            <div class="campos">
+                <div class="campos_dados">
+                    <div class="dados">
+                        <label id = 'nome'>Nome</label>
+                        <input type="text" maxlength="50" id = 'campo'>
+                    </div>
+                    <div class="dados">
+                        <label>Sobrenome</label>
+                        <input type="text" maxlength="50" id = 'campo'>
+                    </div>
+                    <div class="dados">
+                        <label>Telefone</label>
+                        <input type="tel" id = 'campo'> 
+                    </div>
+                    <div class="dados"> 
+                        <label>E-mail</label>
+                        <input type="email" id = 'campo'>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <label><strong>SELECIONE O SERVIÇO</strong></label>
+                <br>
+                <input type="checkbox" id ='opcoes'><label>Gestão Financeira</label><br>
+                <input type="checkbox" id ='opcoes'><label>Gestão de Pessoas</label><br>
+                <input type="checkbox" id ='opcoes'><label>Mkt Digital</label><br>
+                <input type="checkbox" id ='opcoes'><label>LinkPro</label><br>
+                <input type="checkbox" id ='opcoes'><label>Desenvolvimento de Site/App</label>
+                <br>
+                <hr>
+                <br>
+                <label>Observações</label><br>
+                <input type="text" id = "observacoes">
+                <div class="enviar_dados">
+                    <button id ='enviar_dados'>Enviar Dados</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
